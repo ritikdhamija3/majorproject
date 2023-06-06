@@ -1,0 +1,237 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text-service{
+    text-align: center;
+    padding-bottom:50px ;}
+.text-service P
+{
+    margin:auto;
+    font-size:20px;
+ 
+    color:#960082;
+    font-weight: bold;
+    position:relative;
+    z-index:1;
+    display: inline-block;
+}
+.text-service H2{
+    font-size: 30px;
+}
+.text-service P::after{
+    content: "";
+    width:50px;
+    height: 35px;
+    background:linear-gradient(#01953f,#fff);
+    position:absolute ;
+    top:-20px;
+    left:0;
+    z-index: -1;
+    transform: rotate(10deg);
+    border-top-left-radius:35px; 
+    border-top-right-radius: 30px;
+}
+
+#services
+{
+width:100%;
+padding:80px 50px;
+background: #efefef;
+}
+h3{
+    margin-bottom: 20px;
+    
+}
+#graph{
+    margin-bottom: 20px;
+}
+.wrapper
+{
+    display:flex;
+    width:90%;
+    flex-wrap:wrap;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+.paragraph
+{
+    flex-basis:50% ;
+    margin-bottom: 20px; 
+    
+}
+
+.image-img
+{
+    flex-basis:50%;
+    border-radius: 10px;
+    box-shadow: 2px 3px #8c03fc;
+}
+.think
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:15px;
+    font-weight: bolder;
+    font-weight: 300;
+    color: firebrick;
+     text-shadow:2px blue;
+    background: linear-gradient(90deg,pink, skyblue);
+}
+.think h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px;
+    font-weight: bold;
+    color: firebrick;
+     text-shadow:2px blue;
+    background: linear-gradient(90deg,pink, skyblue);
+}
+.nursery
+{
+    border-radius: 4px;
+    box-shadow: #f55a42;
+    width: 500px;
+    animation-name:mover;
+    animation:mover 2s infinite;
+    animation-iteration-count: 3;
+    position:relative;
+    animation-delay: 5s;
+    animation-direction: alternate;
+    justify-content: right;
+    margin-left:40%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+}
+@keyframes mover{
+    
+from{right:0px;}
+to{right:100px;}
+}
+.footer{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    background-size: cover;  
+    padding:100px 0 30px;
+    border-top-left-radius: 150px;
+    border-radius: 40%;   
+    font-size: 13px;
+    line-height: 20px;
+}
+.backer{
+    width: 95%;
+    margin: auto;
+    height: 60%;
+    display: flex;
+    background:linear-gradient(to right,#00093c,#2d0b00);
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-size: cover;
+    justify-content: space-between;
+    border-top-left-radius: 150px;
+    
+}
+.col{
+    flex-basis: 20%;
+
+    padding: 10px;
+
+}
+
+#last{
+    width: 80px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    color:#ccc;
+    }
+    .explain{
+        color:#ccc;
+        margin-left:30px;
+    }
+ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+.col h3{
+    width:fit-content;
+    margin-bottom: 40px;
+    position: relative;
+
+}
+.email-id{
+    width:fit-content;
+    border-bottom: 1px solid #ccc;
+    margin:20px 0;
+    color: #ccc;
+}
+
+
+form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom:50px;
+}
+form .fa-regular{
+    font-size: 26px;
+    margin-right: 10px;
+    color: #ccc;
+    
+
+}
+form input{
+    width: 100%;
+    background: transparent;
+    color: #ccc;
+    border:0;
+    outline:none;
+}
+
+form button{
+    background: transparent;
+    border:0;
+    outline: none;
+    cursor:pointer;
+}
+form button .fas{
+    font-size: 15px;
+    color:#ccc;
+}
+.social-icons .fa-brands{
+    width:40px;
+    height:30px;
+    border-radius: 50%;
+    text-align:center ;
+    line-height: 30px;
+    font-size: 20px;
+    color: #000;
+    background: #ccc;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.social-icons .fa-brands:hover{
+    transform: translateY(-10px);
+    transition: 0.1s ease-in-out;
+    
+}
+hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin:20px auto;
+}
+#aboutback
+{
+    width:30x;
+    height:20px;
+    color:#00093c;
+    background-color:white;
+}
